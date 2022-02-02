@@ -51,7 +51,7 @@ select{
   }
   .container{
       padding-inline: 2em;
-      max-width: 80rem;
+      max-width: 60rem;
       margin-inline: auto;
 
   }
@@ -66,3 +66,13 @@ select{
     white-space: nowrap; /* added line */
     border: 0;
   }
+  .box {
+    background: lightblue;
+    padding: 3rem;
+}
+.call-to-action{
+    background-color: pink;
+    border-radius: 1rem;
+    padding: 2rem;
+    --gap: 5rem;
+}
